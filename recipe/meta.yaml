@@ -27,7 +27,7 @@ requirements:
     - perl        # [win]
     - pkg-config  # [unix]
     - make        # [unix]
-    - python *    # [not win]
+    # - python *    # [not win]
     - gettext
   host:
     - libedit     # [unix]
@@ -58,8 +58,8 @@ outputs:
         - perl        # [win]
         - pkg-config  # [unix]
         - make        # [unix]
-        - python 3.7  # [not win]
-        - python      # [win]
+        # - python 3.7  # [not win]
+        # - python      # [win]
         - gettext
       host:
         - libedit     # [unix]
